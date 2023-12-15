@@ -1,0 +1,13 @@
+[web_servers]
+server1		 ansible_python_interpreter=/usr/bin/python3
+CentOS		 ansible_python_interpreter=/usr/bin/python3
+
+[db_servers]
+server2		 ansible_python_interpreter=/usr/bin/python3
+CentOS		 ansible_python_interpreter=/usr/bin/python3
+
+[file_server]
+server2		 ansible_python_interpreter=/usr/bin/python3
+
+[workstations]
+server1          ansible_python_interpreter=/usr/bin/python3
